@@ -1,0 +1,79 @@
+/*BROKEN FOR SOME REASON -> MOVED TO test.css*/
+body {
+  margin: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+  /*Image Source: https://www.istockphoto.com/photos/blackjack*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1334063620/photo/black-jack-game-on-a-red-casino-table.jpg?s=612x612&w=0&k=20&c=S9C-q43enyNKkpstnLwAYTQe-yZSq4JqxMZFg8ZGZc0=');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+.main h1 {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.main h2 {
+  font-size: 2em;
+}
+
+.main .button {
+  display: block;
+  width: 300px;
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: rgba(98, 50.2, 44.7, 0.5);
+}*/
+
+
+.main .button:hover {
+  background-color: rgba(98, 50, 45, 0.8);
+}
+
+
+/*Navigation bar guide: https://www.youtube.com/watch?v=f3uCSh6LIY0*/
+
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+  float: left;
+}*/

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <title>Project Gambler</title>
+  <meta charset=utf-8 />
+  <meta name=viewport value=”width=device-width; initial-scale=1.0 />
+  <link rel=stylesheet href=leaderboard.css crossorigin=anonymous />
+</head>
+
+<body>
+
+  <h1>Project Gambler</h1>
+  <nav class="navbar">
+    <ul>
+      <li><a href="main_page.html">Home</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="leaderboard.html">Statistics</a></li> <!-- not implemented-->
+      <li><a href="login.html">Logout</a></li>
+    <ul>
+  </nav>
+
+ <h1>Leaderboard</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+		<th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+	    {% for account in accounts %} <!-- implement flask for database handle -->
+            <tr>
+                <td> {{ account.id }} </td>
+                <td> {{ account.username }} </td>
+		<td> {{ account.password }} </td>
+            </tr>
+	    {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
+

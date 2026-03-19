@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #C19A6B;
+}
+
+.main{
+  margin: 20px;
+
+}
+
+/*Navigation bar guide: https://www.youtube.com/watch?v=f3uCSh6LIY0*/
+h1 {
+  text-align: center;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+  float: left;
+}
+
+/*Login Form guide: https://www.youtube.com/watch?v=p3R13g99P3k*/
